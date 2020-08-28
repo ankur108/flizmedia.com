@@ -1178,7 +1178,8 @@ h1, h2, h3, h4, h5,
 
 .unit-4 {
   padding: 20px;
-  background: #f1f1f1;
+  background: #4285f4;
+  color:white;
   border-radius: 5px;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -1192,7 +1193,7 @@ h1, h2, h3, h4, h5,
   
   .unit-4 h3 {
     font-size: 18px;
-    color: #000;
+    color: white;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease; }
@@ -1204,21 +1205,15 @@ h1, h2, h3, h4, h5,
   .unit-4 *:last-child {
     margin-bottom: 0; }
   .unit-4:hover {
-    background: #4285f4;
+    background: #F1F1F1;
     -webkit-box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
     box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4);
     top: -7px; }
-    .unit-4:hover .icon-wrap {
-      background-color: #fff; }
-      .unit-4:hover .icon-wrap span {
-        color: #4285f4 !important; }
     .unit-4:hover h3 {
-      color: #fff; }
+      color: black; }
     .unit-4:hover p {
       font-weight: 300;
-      color: rgba(255, 255, 255, 0.7); }
-      .unit-4:hover p a {
-        color: #fff; }
+      color: black; }
 
 .h-entry img {
   margin-bottom: 30px; }
